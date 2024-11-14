@@ -216,7 +216,6 @@ ul{
 }
   #html:hover, #html.hovered {
     width: 40%; 
-    background-color: #2d9abb;
     text-align: center;
     transition: 2s;
     background-color:blue;
@@ -226,7 +225,6 @@ ul{
     }
   #css:hover, #css.hovered {
     width: 30%; 
-    background-color: #2196F3;
     text-align: center;
     transition: 2s;
     background-color: #2d9abb;
@@ -238,7 +236,6 @@ ul{
     background-color: #6536f4;
     text-align: center;
     transition: 2s;
-    background-color: purple;
     border-radius: 9.5%;
     padding: 2%;
     }
@@ -247,7 +244,6 @@ ul{
     background-color: #380f33;
     text-align: center;
     transition: 2s;
-    background-color:dimgrey;
     border-radius: 9.5%;
     padding: 2%;
     }
