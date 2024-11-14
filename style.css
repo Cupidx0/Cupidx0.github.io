@@ -130,6 +130,7 @@ body{
     padding: 2px;
     border-radius: 7px;
     border: #808080;
+    cursor: pointer;
 }
 .content{
     display:flex;
@@ -194,16 +195,18 @@ body{
     border: #808080;
   }
   
-  #html {width: 0%; background-color: #2d9abb;
+  #html {
+    width: 0%; 
+    background-color: #2d9abb;
     transition: 2s;
     }
-  #css {width: 0%; background-color: #2196F3;
+  #css {width: 30%; background-color: #2196F3;
     transition: 2s;
     }
-  #js {width: 0%; background-color: #6536f4;
+  #js {width: 10%; background-color: #6536f4;
     transition: 2s;
     }
-  #python {width: 0%; background-color: #380f33;
+  #python {width: 50%; background-color: #380f33;
     transition: 2s;
     }
 ul{
@@ -214,7 +217,7 @@ ul{
     gap: 30px;
     cursor: pointer;
 }
-  #html:hover, #html.hovered {
+  #html:hover, #skills html.hovered {
     width: 40%; 
     text-align: center;
     transition: 2s;
