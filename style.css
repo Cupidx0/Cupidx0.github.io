@@ -196,17 +196,17 @@ body{
   }
   
   #html {
-    width: 0%; 
+    width:0%; 
     background-color: #2d9abb;
     transition: 2s;
     }
-  #css {width: 30%; background-color: #2196F3;
+  #css {width:0%; background-color: #2196F3;
     transition: 2s;
     }
-  #js {width: 10%; background-color: #6536f4;
+  #js {width:0%; background-color: #6536f4;
     transition: 2s;
     }
-  #python {width: 50%; background-color: #380f33;
+  #python {width:0%; background-color: #380f33;
     transition: 2s;
     }
 ul{
