@@ -194,16 +194,16 @@ body{
     border: #808080;
   }
   
-  .html {width: 0%; background-color: #2d9abb;
+  #html {width: 0%; background-color: #2d9abb;
     transition: 2s;
     }
-  .css {width: 0%; background-color: #2196F3;
+  #css {width: 0%; background-color: #2196F3;
     transition: 2s;
     }
-  .js {width: 0%; background-color: #6536f4;
+  #js {width: 0%; background-color: #6536f4;
     transition: 2s;
     }
-  .python {width: 0%; background-color: #380f33;
+  #python {width: 0%; background-color: #380f33;
     transition: 2s;
     }
 ul{
@@ -214,8 +214,9 @@ ul{
     gap: 30px;
     cursor: pointer;
 }
-  .html:hover, 
-  .html.hovered {width: 40%; background-color: #2d9abb;
+  #html:hover, #html.hovered {
+    width: 40%; 
+    background-color: #2d9abb;
     text-align: center;
     transition: 2s;
     background-color:blue;
@@ -223,21 +224,27 @@ ul{
     border-radius: 9.5%;
     padding: 2%;
     }
-  .css:hover {width: 30%; background-color: #2196F3;
+  #css:hover, #css.hovered {
+    width: 30%; 
+    background-color: #2196F3;
     text-align: center;
     transition: 2s;
     background-color: #2d9abb;
     border-radius: 9.5%;
     padding: 2%;
-    }
-  .js:hover {width: 10%; background-color: #6536f4;
+}
+  #js:hover , #js.hovered {
+    width: 10%; 
+    background-color: #6536f4;
     text-align: center;
     transition: 2s;
     background-color: purple;
     border-radius: 9.5%;
     padding: 2%;
     }
-  .python:hover {width: 50%; background-color: #380f33;
+  #python:hover , #python.hovered {
+    width: 50%; 
+    background-color: #380f33;
     text-align: center;
     transition: 2s;
     background-color:dimgrey;
